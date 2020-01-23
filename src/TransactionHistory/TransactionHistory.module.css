@@ -1,0 +1,33 @@
+@import "../base.css";
+.section {
+  width: 810px;
+  margin: 50px auto 50px auto;
+}
+.transactionHisory {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-spacing: 1px;
+}
+.tableHead {
+  text-transform: uppercase;
+  background-color: #00bcd5;
+  color: #ffffff;
+}
+.tableHead th {
+  width: 270px;
+  padding: 15px 0 15px 0;
+}
+.tableData td {
+  width: 270px;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  color: #828387;
+}
+td::first-letter {
+  text-transform: uppercase;
+}
+tr:nth-child(2n + 2) {
+  background-color: #ecf1f4;
+}

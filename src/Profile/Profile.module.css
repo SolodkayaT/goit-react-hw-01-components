@@ -1,9 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "../base.css";
+
 .profile {
   margin: 30px auto 0;
   width: 250px;

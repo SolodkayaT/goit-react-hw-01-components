@@ -1,12 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
+import styles from "./TransactionHistory.module.css";
 
 function TransactionHisory({ transactions }) {
   return (
-    <section>
-      <table class="transaction-history">
+    <section className={styles.section}>
+      <table className={styles.transactionHisory}>
         <thead>
-          <tr>
+          <tr className={styles.tableHead}>
             <th>Type</th>
             <th>Amount</th>
             <th>Currency</th>
@@ -15,7 +16,7 @@ function TransactionHisory({ transactions }) {
         <tbody>
           {transactions &&
             transactions.map(({ id, type, amount, currency }) => (
-              <tr key={id}>
+              <tr className={styles.tableData} key={id}>
                 <td>{type}</td>
                 <td>{amount}</td>
                 <td>{currency}</td>
