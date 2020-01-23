@@ -33,16 +33,13 @@
   font-size: 13px;
 }
 .item {
-  border: 1px solid #0a3c3d;
   border-right: none;
   flex-grow: 1;
   background-color: #21a1a3;
   text-align: center;
   color: #ffffff;
 }
-.item:last-child {
-  border-right: 1px solid #0a3c3d;
-}
+
 .percentage {
   display: inline-block;
   font-size: 15px;

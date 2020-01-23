@@ -24,8 +24,6 @@ function Statistics({ statistic, title }) {
     </section>
   );
 }
-
-console.log(randomColor());
 Statistics.defaultProps = {
   title: "",
   percentage: 0,
